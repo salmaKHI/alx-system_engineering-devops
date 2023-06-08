@@ -1,1 +1,2 @@
-shell basics README
+#!/bin/bash
+pwd
