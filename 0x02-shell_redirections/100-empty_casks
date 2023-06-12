@@ -1,2 +1,2 @@
 #!/bin/bash
--not -path '*/\.*'
+find . -not -path '*/\.*' -type f -empty -printf "%P\n" -o -type d -empty -printf "%P\n"
